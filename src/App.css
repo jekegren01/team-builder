@@ -39,7 +39,7 @@
 h2 {
   width: 20vw;
   margin: 0px;
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 p {
@@ -53,7 +53,7 @@ p {
 }
 
 .title {
-  margin-top: 20px;
+  margin: 20px 10px 0px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -61,7 +61,8 @@ p {
 }
 
 .teamMember {
-  padding: 10px;
+  margin: 10px 10px;
+  padding: 10px 0px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
