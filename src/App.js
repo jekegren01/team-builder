@@ -14,6 +14,6 @@ function App() {
       <TeamMembers teamMembers={teamMembers}/>
     </div>
   );
-}
+};
 
 export default App;
