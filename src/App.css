@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+h2 {
+  width: 20vw;
+  margin: 0px;
+  padding: 10px;
+}
+p {
+  width: 40vw;
+}
+
+.middleTitle {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.title {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.teamMember {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+}
