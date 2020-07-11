@@ -9,6 +9,7 @@ function App() {
   
   return (
     <div className="App">
+      <h1>Team Members</h1>
       <Form teamMembers={teamMembers} setTeamMembers={setTeamMembers}/>
       <TeamMembers teamMembers={teamMembers}/>
     </div>
