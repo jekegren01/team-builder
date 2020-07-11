@@ -41,11 +41,13 @@ h2 {
   margin: 0px;
   padding: 10px;
 }
+
 p {
-  width: 40vw;
+  width: 55vw;
 }
 
 .middleTitle {
+  width: 25vw;
   border-right: 1px solid black;
   border-left: 1px solid black;
 }
