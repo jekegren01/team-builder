@@ -1,8 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Form from 'Form';
 
 function App() {
+  const defaultTeamMembersList = {name: '', email: '', role: ''};
+  const [teamMembersList, setTeamMembersList] = useState(defaultTeamMembersList);
+  
   return (
     <div className="App">
       <header className="App-header">
